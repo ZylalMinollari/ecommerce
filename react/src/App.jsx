@@ -6,7 +6,7 @@ function App() {
     const [count, setCount] = useState(0);
 
     return <div className="App">
-        <h1>Hello Medi Tahremi</h1>
+        <h1>Hello Medi King Tahremi</h1>
     </div>;
 }
 
