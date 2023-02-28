@@ -1,6 +1,8 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header";
+import Oscar from "./components/Navbar/Oscar";
+import Button from "./components/Button/Button";
 
 import "./App.css";
 
@@ -9,7 +11,10 @@ function App() {
 
     return (
         <div className="App">
-            <Navbar name="Navbar"/>
+            <Oscar styles={{border: '1px solid black' , padding:'1 rem' , color:'red'}} />
+            <Button handleClick={() => {
+                console.log("Yes")
+            }} />
         </div>
     );
 }
